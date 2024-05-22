@@ -1,0 +1,33 @@
+@media (min-width: 768px)
+{
+.navbar-header {
+    float: left;
+}
+}
+@media (min-width: 768px)
+{
+
+
+.navbar-left {
+    float: right!important;
+}
+}
+.selectdiv:after
+{
+	right: 11px!important;
+	left: 240px;
+}
+.btn-primary {
+    
+    padding: 7px;
+}
+@media only screen and (max-width: 720px) {
+ .selectdiv:after
+ {
+ 	display: none;
+ }
+}
+#jobs p
+{
+	margin-top: 4px
+}

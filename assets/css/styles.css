@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css?family=Changa:400,700');
+
+header .navbar-default {
+  background: #162633;
+      border-bottom: 1px solid #f4f9ff;
+    
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  padding: 0;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  
+
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+header .navbar-default {
+  /*background: #fff;*/
+  border: none;
+  
+}
+header .navbar-default ul.navbar-nav {
+  padding: 20px 0;
+}
+header .navbar-default ul.navbar-nav li a {
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 7px 17px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+header .navbar-default ul.navbar-nav li a:after {
+  content: '';
+  width: 32px;
+  background: none;
+  height: 4px;
+  position: absolute;
+  bottom: 2px;
+  z-index: 99999;
+  left: 20px;
+  -webkit-border-radius: 5em;
+  -moz-border-radius: 5em;
+  -ms-border-radius: 5em;
+  -o-border-radius: 5em;
+  border-radius: 5em;
+  color: #ffffff;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+header .navbar-default ul.navbar-nav li a:hover {
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+header .navbar-default ul.navbar-nav li a:hover:after {
+  background: transparent;
+}
+header .navbar-default ul.navbar-nav li a.getApp {
+  -webkit-border-radius: 5em;
+  -moz-border-radius: 5em;
+  -ms-border-radius: 5em;
+  -o-border-radius: 5em;
+  border-radius: 5em;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+header .navbar-default ul.navbar-nav li a.getApp:after {
+  display: none;
+}
+header .navbar-default ul.navbar-nav li a:focus {
+  color: #ffffff;
+}
+header .navbar-default .navbar-brand {
+  height: auto;
+  padding: 0;
+}
+header .navbar-default.scrolled {
+  background: #fff;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  padding: 0;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+/*header .navbar-default.scrolled .navbar-brand {
+  padding: 15px 20px;
+}*/
+header .navbar-default.scrolled .navbar-brand img {
+  /*width: auto;*/
+      max-height: 73px;
+}
+header .navbar-default.scrolled ul.navbar-nav {
+/*  padding-top: 15px;*/
+}
+.navbar-brand img
+{
+  padding: 15px 20px;
+      max-height: 73px;
+}
+/* Common style for pseudo-elements */
+section::before,
+section::after {
+  position: absolute;
+  content: '';
+  pointer-events: none;
+  overflow: hidden;
+}
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+.tp-caption {
+  font-family: 'Changa', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.tp-caption.large_white_bold {
+  color: #ffffff;
+  font-size: 65px;
+  font-weight: 400;
+}
+.tp-caption.large_white_light {
+  color: #ffffff;
+  font-size: 65px;
+  font-weight: 400;
+  font-weight: 300;
+}
+
+.navbar-fixed-top .navbar-collapse
+{
+  max-height: none;
+}
+@media screen and (max-width: 640px) {
+  .logo {
+    width: 100px;
+    height: auto;
+  }
+  .slick-next {
+    right: 0;
+  }
+  .slick-prev {
+    left: 0;
+  }
+  .contact-details {
+    margin-top: 20px;
+  }
+  header .navbar-default {
+    padding: 20px;
+  }
+  header .navbar-default .navbar-toggle {
+    margin-top: 0px;
+    margin-right: 0px;
+    background: none;
+    border: 2px solid #e4645b;
+    color: #e4645b;
+    -webkit-border-radius: 5em;
+    -moz-border-radius: 5em;
+    -ms-border-radius: 5em;
+    -o-border-radius: 5em;
+    border-radius: 5em;
+  }
+  header .navbar-default .navbar-toggle:hover,
+  header .navbar-default .navbar-toggle:focus {
+    background: none;
+  }
+  header .navbar-default ul.navbar-nav {
+    padding-top: 0;
+    margin: 0;
+  }
+  header .navbar-default ul.navbar-nav li a {
+    padding: 10px;
+    text-align: center;
+  }
+  header .navbar-default ul.navbar-nav li a.getApp {
+    background: none !important;
+    -webkit-border-radius: 0em;
+    -moz-border-radius: 0em;
+    -ms-border-radius: 0em;
+    -o-border-radius: 0em;
+    border-radius: 0em;
+  }
+  header .navbar-default .navbar-collapse {
+    border-color: transparent;
+  }
+  header .navbar-default.scrolled .navbar-collapse {
+    border-color: transparent;
+  }
+  header .navbar-default.scrolled ul.navbar-nav {
+    padding-top: 0;
+    margin: 0;
+  }
+  header .navbar-default.scrolled .navbar-toggle {
+    margin-top: 11px;
+    margin-right: 20px;
+    background: none;
+    border: 2px solid #e4645b;
+    color: #e4645b;
+    -webkit-border-radius: 5em;
+    -moz-border-radius: 5em;
+    -ms-border-radius: 5em;
+    -o-border-radius: 5em;
+    border-radius: 5em;
+  }
+}
+.pre-loader {
+  position: fixed;
+  width: 100%;
+ min-height: 4444px;
+
+  z-index: 999999999999;
+  display: block;
+}
+.pre-loader .load-con {
+  margin: 20% auto;
+  position: relative;
+  text-align: center;
+}
+.spinner {
+  margin: 50px auto 0;
+  width: 70px;
+  text-align: center;
+}
+.spinner > div {
+  width: 18px;
+  height: 18px;
+  background-color: #fff;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
+  animation: bouncedelay 1.4s infinite ease-in-out;
+  /* Prevent first frame from flickering when animation starts */
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+@-webkit-keyframes bouncedelay {
+  0%,
+  80%,
+  100% {
+    -webkit-transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes bouncedelay {
+  0%,
+  80%,
+  100% {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
+header {
+  
+  /* Old browsers */
+  
+}
+header .navbar-default ul.navbar-nav li a {
+  color: #efe3e3;
+  background: none;
+}
+header .navbar-default ul.navbar-nav li a.getApp {
+  color: #fff !important;
+  background: #2E81ED;
+ 
+}
+/**/
+header .navbar-default ul.navbar-nav li a:hover
+ {
+  color: #e4645b;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+header .navbar-default ul.navbar-nav li a:active
+ {
+  color: #e4645b;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+header .navbar-default ul.navbar-nav li a:foucs
+ {
+  color: #e4645b;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+header .navbar-default.scrolled {
+  border-bottom: 1px solid #f4f9ff
+}
+header .navbar-default.scrolled ul.navbar-nav li a {
+  color: #ccc;
+}
+header .navbar-default.scrolled ul.navbar-nav li a:hover {
+  color: #e4645b;
+}
+/*header .navbar-default.scrolled ul.navbar-nav li a:hover:after {
+  background: #336799;
+}*/
+/*header .navbar-default.scrolled .navbar-brand {
+  background: #336799;
+}*/
+.navbar-toggle {
+  background-color: #CCC;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 640px) {
+  header .navbar-default .navbar-toggle:hover,
+  header .navbar-default .navbar-toggle:focus {
+    background: none;
+  }
+  header .navbar-default ul.navbar-nav li a {
+    color: #ffffff;
+    border-bottom: 1px solid #376fa4;
+  }
+  header .navbar-default ul.navbar-nav li a.getApp {
+    color: #ffffff;
+  }
+  header .navbar-default ul.navbar-nav li a:after {
+    display: none;
+  }
+  header .navbar-default ul.navbar-nav li a:hover {
+    color: #66cdcc;
+  }
+  header .navbar-default .navbar-collapse {
+    background: #336799;
+  }
+  header .navbar-default.scrolled {
+    background: #fff;
+  }
+  header .navbar-default.scrolled ul.navbar-nav li a {
+    color: #fff;
+  }
+  header .navbar-default.scrolled ul.navbar-nav li a:hover {
+    color: #e4645b;
+  }
+}
+.pre-loader {
+  background: #e4645b;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #e4645b;
+     background-color: transparent; 
+}
+.navbar-default.scrolled .navbar-nav>.active>a, .navbar-default.scrolled .navbar-nav>.active>a:focus, .navbar-default.scrolled .navbar-nav>.active>a:hover {
+    color: #e4645b;
+    background-color: transparent;
+}
+/**/
